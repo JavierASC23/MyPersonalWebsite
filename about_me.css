@@ -1,0 +1,52 @@
+
+div {
+
+    font-family: Helvetica;
+    background-color: #8ba5be;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    }
+    
+    nav{
+    
+    background-color: #8ba5be;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: underline none;
+    }
+
+    .items1:hover{
+        text-decoration: underline red 5px;
+    }
+    
+    .items2:hover{
+        text-decoration: underline green 5px;
+    }
+    
+    .items3:hover{
+        text-decoration: underline blue 5px;
+    }
+    
+
+img{
+    width: 30px;
+   
+}
+
+
+
+h1{
+    border-radius:  25px;
+    border: 2px solid black;
+    margin-left: 550px;
+    width: 140px;
+}
+
+
+
+
