@@ -11,13 +11,14 @@ div {
     }
     
     nav{
-    
-    background-color: #8ba5be;
-    padding: 5px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    text-decoration: underline none;
+
+        background-color: #8ba5be;
+        padding: 5px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        text-decoration: underline none;
+
     }
 
     .items1:hover{
@@ -49,4 +50,43 @@ h1{
 
 
 
+#Looks{
+    background-color: #dceefdd7;
+    color: black;
+    border-radius:  25px;
+    border: 2px solid black;
+    width: 900px;
+    margin-left: 20px;
+}
 
+.TopSection{
+    background-color: white;
+    color: black;
+    display: flex;
+justify-content: space-around;
+
+}
+
+#MyBackground{
+
+    background-color: white;
+    color: black;
+    border-radius:  25px;
+    border: 2px solid black;
+    width: 180px;
+    height: 250px;
+    margin-right: 30px;
+    text-align: center;
+    
+}
+
+
+
+#MyImage{
+    width: 300px;
+}
+
+a{
+    color: inherit;
+    text-decoration: inherit;
+    }
