@@ -43,3 +43,74 @@ h1{
     margin-left: 550px;
     width: 13%;
 }
+
+
+.Topic_Images{
+background-color: white;
+display: flex;
+justify-content: space-around;
+
+}
+
+#Sports{
+    border-radius:  25px;
+    border: 5px solid black;
+    width: 180px;
+}
+
+#Chess{
+    border-radius:  25px;
+    border: 5px solid black;
+    width: 320px;
+    height: 180px;
+}
+
+#Roblox{
+    border-radius:  25px;
+    border: 5px solid black;
+    width: 180px;
+}
+
+#Family{
+    border-radius:  25px;
+    border: 5px solid black;
+    width: 200px;
+    height: 180px;
+}
+
+
+.Topic_Discriptions{
+background-color: white;
+color: black;
+font-family: Helvetica;
+display: flex;
+justify-content: space-around;
+}
+
+#Sports_Discription{
+    border-radius:  25px;
+    padding: 7px;
+    border: 2px solid black;
+    width: 180px;
+}
+
+#Chess_Discription{
+    border-radius:  25px;
+    padding: 7px;
+    border: 2px solid black;
+    width: 320px;
+}
+
+#Roblox_Discription{
+    border-radius:  25px;
+    padding: 7px;
+    border: 3px solid black;
+    width: 180px;
+}
+
+#Family_Discription{
+    border-radius:  25px;
+    padding: 7px;
+    border: 2px solid black;
+    width: 200px;
+}
