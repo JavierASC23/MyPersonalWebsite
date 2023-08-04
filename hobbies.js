@@ -13,7 +13,14 @@ buttonRef.onclick = function(event){
 
 
 
-    if( choice == "Reading"){
+
+    if( choice == "Question"){
+        image.src = "Images/black-question-mark-icon-clip-art-10.png";
+        innerWidth = "300px"
+        description.innerHTML = "You never know what you like untill you try it out.";
+    }
+
+    else if( choice == "Reading"){
         image.src = "Images/books.webp";
         description.innerHTML = "Nice, you read books.";
     }
