@@ -68,31 +68,33 @@ justify-content: flex-start;
 }
 
 .First_Box{
+    display: flex;
     background-color: white;
     color: black;
-
-border: 2px solid black;
-width: 150px;
-margin-left: 50px;
-margin-right:  130px;
+    border: 2px solid black;
+    width: 200px;
+    margin-left: 50px;
+    margin-right:  130px;
 }
 
 .Second_Box{
+    display: flex;
     background-color: white;
     color: black;
 
     border: 2px solid black;
-    width: 150px; 
+    width: 250px; 
     margin-right:  130px;
 }
 
 .Third_Box{
+    display: flex;
     background-color: white;
     color: black;
 
     border: 2px solid black;
-    width: 150px;
-    margin-right: 250px;
+    width: 200px;
+    margin-right: 100px;
 }
 
 #ASCLogo{
@@ -102,15 +104,13 @@ width: 130px;
 }
 
 .Fourth_Box{
-
+    display: flex;
     background-color: white;
     color: black;
 
     border: 2px solid black;
-    width: 170px; 
-    margin-right:  130px;
-
-
+    width: 200px;
+    margin-right: 100px;
 }
 
 
@@ -126,7 +126,21 @@ width: 130px;
 
 }
 
+@media(max-width: 530px)  {
 
+    boxes{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+   .First_Box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+
+}
 
 /*
 a{
