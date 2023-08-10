@@ -15,25 +15,25 @@ buttonRef.onclick = function(event){
 
 
     if( choice == "Question"){
-        image.src = "Images/black-question-mark-icon-clip-art-10.png";
+        image.src = "images/black-question-mark-icon-clip-art-10.png";
         innerWidth = "300px"
         description.innerHTML = "You never know what you like untill you try it out.";
     }
 
     else if( choice == "Reading"){
-        image.src = "Images/books.webp";
+        image.src = "images/books.webp";
         description.innerHTML = "Nice, you read books.";
     }
     else if(choice == "Gamer"){
-        image.src = "Images/Games.jpg";
+        image.src = "images/Games.jpg";
         description.innerHTML = "A true gamer never reveals his trap card.";
     }
     else if(choice == "Family Person"){
-        image.src = "Images/FamilyHobby.webp";
+        image.src = "images/FamilyHobby.webp";
         description.innerHTML = "Spending time with family is always something good to have.";
     }
     else if(choice == "Everything doer"){
-        image.src = "Images/Emoji_Hands.webp";
+        image.src = "images/Emoji_Hands.webp";
         description.innerHTML = "YOU DO IT ALL!";
     }
 
